@@ -1,0 +1,38 @@
+html{
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    color:white;
+    font-size: 40px;
+    padding-top:5vh;
+}
+
+p{
+    color:white;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:auto auto;
+    width:75%;
+}
+
+table{
+    margin:auto auto;
+    width:80%;
+    height:80%;
+    text-align: center;
+    align-items:center
+}
+
+table td{
+    position: relative;
+    padding-top: 5rem;
+}
+
+table img{
+    width:10rem;
+    height:10rem;
+    border-radius: 20px;
+}

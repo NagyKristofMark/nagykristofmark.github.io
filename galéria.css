@@ -1,0 +1,36 @@
+.mood img{
+    margin:auto auto;
+    height:100vh;
+    width:70vh;
+}
+
+.mood{
+    margin:auto auto;
+    height:100vh;
+    width:70vh;
+}
+
+.left{
+    float:left;
+    margin-left:8%;
+}
+
+.right{
+    float:right;
+    margin-right:8%;
+}
+
+.kep a img{
+    padding:3px;
+    border-radius:20px;
+    width:125px;
+    height:100px;
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+
+main{
+    overflow:hidden;
+}
