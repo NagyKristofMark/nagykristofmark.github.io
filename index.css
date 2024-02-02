@@ -35,14 +35,24 @@ h1 {
     width: 65vh;
 }
 
+
+
 .naprendszer {
-    width: 70vh;
-    height: 70vh;
-    padding-top: 5vh;
-    margin:auto auto;
-    overflow:visible;
+  width: 35vw;
+  height: 35vw;
+  padding-top: 5vh;
+  margin:auto auto;
+  overflow:visible;
 }
-  
+
+@media (max-width:650px){
+  .naprendszer{
+    width:60vw;
+    height:60vw;
+    padding-top:10vh;
+  }
+}
+
   .bolygo {
     display: flex;
     align-items: center;

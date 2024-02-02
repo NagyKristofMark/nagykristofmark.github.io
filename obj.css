@@ -40,3 +40,24 @@ img{
     height:20rem;
     border-radius: 20px;
 }
+
+
+@media (max-width:650px){
+    .sbs{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .left,.right{
+        margin:auto auto;
+    }
+
+    img{
+        margin:auto auto;
+    }
+
+    p{
+        padding-bottom:5vh;
+        font-size: large;
+    }
+}

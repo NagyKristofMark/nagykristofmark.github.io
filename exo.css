@@ -29,10 +29,21 @@ table{
 table td{
     position: relative;
     padding-top: 5rem;
+    text-transform: uppercase;
 }
 
 table img{
     width:10rem;
     height:10rem;
     border-radius: 20px;
+}
+
+@media (max-width:650px){
+    table td{
+        text-transform: capitalize;
+        line-height: 20px;
+        padding: 4vw;
+    }
+
+
 }

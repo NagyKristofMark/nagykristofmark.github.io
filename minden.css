@@ -19,12 +19,22 @@ ul{
     list-style: none;
     position:fixed;
     display:flex;
-    width:100%;
+    width:100vw;
     height:8%;
     visibility: hidden;
     z-index:100;
     background-color: black;
     top:-2%
+}
+
+@media (max-width:650px){
+    ul{
+        width:100vw;
+    }
+    ul li{
+        font-size: medium;
+        margin:auto 1vw;
+    }
 }
 
 li {
