@@ -32,7 +32,7 @@ h1 {
     color:white;
     font-size: 40px;
     padding-top:5vh;
-    width: 65vh;
+    width: 65vw;
 }
 
 
@@ -51,6 +51,9 @@ h1 {
     height:60vw;
     padding-top:10vh;
   }
+    h1{
+        font-size:20px;
+    }
 }
 
   .bolygo {
